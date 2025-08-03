@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "SystemUIResRhodei",
+    sdk_version: "current",
+    vendor: true
+}
