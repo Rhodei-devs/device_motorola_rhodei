@@ -155,4 +155,3 @@ blocklist mmi_discrete_charger
 blocklist sgm4154x_charger
 blocklist bq2589x_charger
 blocklist bq2597x_mmi_iio
-blocklist mmi_discrete_turbo_charger
