@@ -68,4 +68,3 @@ mmi_discrete_charger_class.ko
 mmi_discrete_charger.ko
 leds_aw99703.ko
 leds_lm3697.ko
-mmi_discrete_turbo_charger.ko
