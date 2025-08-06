@@ -24,6 +24,6 @@ PRODUCT_MODEL := moto g62 5G
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="rhodei_g-user 13 T1SUS33M.1-75-7-16 5e3f4d release-keys" \
-    BuildFingerprint=motorola/rhodei_g/rhodei:13/T1SUS33M.1-75-7-16/5e3f4d:user/release-keys \
+    BuildDesc="rhodei_g-user 13 T1SUS33M.1-75-7-16 3686b release-keys" \
+    BuildFingerprint=motorola/rhodei_g/rhodei:13/T1SUS33M.1-75-7-16/3686b-585454:user/release-keys \
     DeviceProduct=rhodei_g
