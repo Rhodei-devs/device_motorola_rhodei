@@ -14,7 +14,7 @@
 
 # Platform
 PRODUCT_PLATFORM := holi
-include device/motorola/sm6375-common/PlatformConfig.mk
+include device/motorola/sm6375-common/common.mk
 
 # Bootloader Name
 TARGET_BOOTLOADER_BOARD_NAME := rhodei
