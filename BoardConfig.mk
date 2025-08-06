@@ -80,3 +80,18 @@ BOARD_MOT_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     system \
     product \
     vendor
+
+
+# Properties
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
+# Recovery
+TARGET_RECOVERY_UI_MARGIN_HEIGHT := 90
+
+# Security patch level
+VENDOR_SECURITY_PATCH := 2025-07-01
+
+# inherit from the proprietary version
+include vendor/motorola/rhodei/BoardConfigVendor.mk
